@@ -20,10 +20,11 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
-name = "cli_first"
+name = "cli_gg"
 version = "0.1.0"
 dependencies = [
  "colored",
+ "figlet-rs",
  "rand",
 ]
 
@@ -37,6 +38,12 @@ dependencies = [
  "lazy_static",
  "winapi",
 ]
+
+[[package]]
+name = "figlet-rs"
+version = "0.1.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "01af5c4fc8506204d2280509e9d57d1b41e54e587c185ac09baef30d21ae63ed"
 
 [[package]]
 name = "getrandom"
